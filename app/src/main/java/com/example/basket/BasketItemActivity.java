@@ -81,8 +81,9 @@ public class BasketItemActivity extends AppCompatActivity {
                         return;
                     }
 
-                    Intent result = new Intent();
-                    setResult(RESULT_OK, result);
+                    Intent intent = new Intent(BasketItemActivity.this, MainActivity.class);
+                    setResult(RESULT_OK, intent);
+                    startActivity(intent);
                     Toast.makeText(BasketItemActivity.this, "Item Updated Successfully", Toast.LENGTH_LONG).show();
                 }
 

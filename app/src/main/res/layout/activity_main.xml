@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Quantity"/>
+            android:text="@string/quantity"/>
 
         <TextView
             android:id="@+id/strPrice"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="start"
-            android:text="Price"/>
+            android:text="@string/price"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 
